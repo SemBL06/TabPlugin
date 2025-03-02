@@ -1,0 +1,91 @@
+# !-----------------------------------------------------------------------------------------------!
+#                       Welcome to the  configuration of ${project.name}
+# !-----------------------------------------------------------------------------------------------!
+#
+# Change the header and footer here. You can add as much lines as you want.
+#
+# To find all the possible animations, see:
+# https://github.com/Niall7459/KiteBoard-Documentation/wiki/Animations-and-Modifiers
+#
+#If you still see %...% do '/papi ecloud download player' + '/papi ecloud download server' + '/papi ecloud download animations'
+#
+# -------------------------------------------------------------------------------------------------
+Header: |-
+  §f[§bYour server§f]
+  Welcome §c%player_name%§f
+  %animations_<shine>------------------------------</shine>%
+Footer: |-
+  %animations_<shine>------------------------------</shine>%
+  §f[§bYour server§f]
+  §aTPS: %server_tps_1_colored% - Uptime: %server_uptime% - Player online: %server_online%
+
+# -------------------------------------------------------------------------------------------------
+#
+# Change the amount of ticks when updating the tablist. 20 ticks equals 1 second.
+# If your number is high, the tablist will be updated slowly. When your number is low, the tablist will be updated frequently. I recommend using 5 as number.
+#
+# -------------------------------------------------------------------------------------------------
+Update_Delay: 5
+
+# -------------------------------------------------------------------------------------------------
+#
+# Do you want to get notified when there is a new release?
+#
+# -------------------------------------------------------------------------------------------------
+Get_Notified: true
+  
+# -------------------------------------------------------------------------------------------------
+#
+# Do you want to see a warning to install the Placeholders?
+#
+# -------------------------------------------------------------------------------------------------
+Get_Warned: true
+
+# -------------------------------------------------------------------------------------------------
+# The formats used in the {date}, {date_short}, {date_month} and {location}. 
+#
+# See the link below to learn how to edit the date format:
+# https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+# -------------------------------------------------------------------------------------------------
+Date_Format: "dd.MM.yyyy HH:mm:ss"
+Date_Format_Short: "dd.MM.yyyy HH:mm"
+Date_Format_Month: "dd.MM HH:mm"
+Location_Format: "{world} {x}, {y}, {z}"
+
+# -------------------------------------------------------------------------------------------------
+# What commands should trigger the main plugin command group?
+#
+# * THE FIRST ALIAS IS THE MAIN LABEL, YOU CAN CHANGE IT BUT DO NOT REMOVE IT. *
+# * EXAMPLE: [boss, b] will trigger your main command from "/boss" or "/b" * 
+# -------------------------------------------------------------------------------------------------
+Command_Aliases: [plugintemplate, template, plt]
+
+# -------------------------------------------------------------------------------------------------
+# What language should we use for messages? For now, we only support English.
+# -------------------------------------------------------------------------------------------------
+Locale: en
+
+# -------------------------------------------------------------------------------------------------
+# The prefix used in front of most chat or console messages. You can manually use it with
+# {plugin_prefix} variable anywhere.
+# -------------------------------------------------------------------------------------------------
+Prefix: "&8[&c${project.name}&8]&7"
+
+# -------------------------------------------------------------------------------------------------
+# Time of some plugin's operations is measured. You can also use the LagCatcher class to invoke
+# this feature. We log a console message if an operation takes over the time below (milliseconds). 
+# Set to -1 to disable.
+# -------------------------------------------------------------------------------------------------
+Log_Lag_Over_Milis: 100
+
+# -------------------------------------------------------------------------------------------------
+# List of section names that will print informative messages about this plugin's features.
+# The Debugger class utilizes this key and will only print messages for sections enabled below.
+# -------------------------------------------------------------------------------------------------
+Debug: []
+
+# -------------------------------------------------------------------------------------------------
+# Do not change this value, otherwise it will corrupt your plugin installation!
+# NB: Don't forget to keep this up-to-date with the getConfigVersion method in your Settings class. 
+# -------------------------------------------------------------------------------------------------
+Version: 1

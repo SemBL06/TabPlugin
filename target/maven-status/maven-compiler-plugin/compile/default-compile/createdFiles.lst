@@ -1,0 +1,17 @@
+com\forageek\bstats\Metrics$1.class
+com\forageek\bstats\Metrics$AdvancedPie.class
+com\forageek\bstats\Metrics$AdvancedBarChart.class
+com\forageek\bstats\Metrics$SingleLineChart.class
+com\forageek\bstats\Metrics$MultiLineChart.class
+com\forageek\tabplugin\events\TablistUpdater.class
+com\forageek\tabplugin\TabPlugin.class
+com\forageek\bstats\Metrics$MetricsBase.class
+com\forageek\tabplugin\settings\Settings.class
+com\forageek\bstats\Metrics$SimpleBarChart.class
+com\forageek\tabplugin\updatechecker\UpdateChecker.class
+com\forageek\bstats\Metrics$CustomChart.class
+com\forageek\bstats\Metrics.class
+com\forageek\bstats\Metrics$JsonObjectBuilder$JsonObject.class
+com\forageek\bstats\Metrics$SimplePie.class
+com\forageek\bstats\Metrics$DrilldownPie.class
+com\forageek\bstats\Metrics$JsonObjectBuilder.class
